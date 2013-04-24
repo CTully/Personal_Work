@@ -1,0 +1,189 @@
+@charset "utf-8";
+body{
+background:#153d05;
+
+}
+
+#wrap{
+width:800px;
+margin-left:auto;
+margin-right:auto;
+background:#40b910;
+}
+
+#header{
+height:165px;
+
+}
+
+#content{
+font-family: Merienda One;
+padding:10px;
+
+
+}
+
+#content p{
+padding: 50;
+}
+
+#content h1{
+font-family: Tahoma,Geneva,sans-serif;
+margin-left:center;
+text-align:center;
+
+
+}
+
+#tree img{
+background:#ccc;
+margin-left:250;
+margin-right:auto;
+vertical-align:middle;
+
+}
+img{
+background:#ccc;
+margin-left:auto;
+margin-right:auto;
+vertical-align:middle;
+}
+
+ #footer{
+               position: absolute;
+                bottom: 0;
+                width: 600 px;
+                height: 70px;
+				font: 12px Crushed #FFF;				
+				width:100%;
+				margin-left:auto;
+				margin-right:auto;
+
+	
+}
+
+
+
+#wTurkey{
+width:600 px;
+margin-left:auto;
+margin-right:auto;
+
+	
+}
+# wTurkey .img{
+margin-left:auto;
+margin-right:auto;
+width:70%;
+}
+
+#sugarLake{
+width:600px;
+margin-left:auto;
+margin-right:auto;
+
+}
+#sugarLake .p{
+width:600px; 
+margin-left:auto;
+margin-right:auto;	
+	
+}
+#beaver{
+width:600 px;
+margin-left:auto;
+margin-right:auto;
+
+	
+}
+/*------------------------------Navigation------------------*/
+
+#navigation{
+background:url(menuBack.gif) repeat-x;
+height:44px;
+width:800px;
+
+}
+
+#navigation ul{
+margin:0;
+padding:0;
+list-style:none;
+
+}
+
+#navigation ul li{
+float: left;
+}
+
+#navigation ul li a{
+display:block;
+width:100px;
+height:44px;
+}
+
+#navigation span{
+visibility:hidden;
+}
+
+#navigation a[href="index.html"] {
+background:url(NavBanner.gif) no-repeat 0 0;
+}
+
+#navigation a[href="index.html"]:hover {
+background:url(NavBanner.gif) no-repeat 0 -44px;
+}
+
+#navigation a[href="cottages.html"] {
+background: url(NavBanner.gif) no-repeat -100px 0;
+}
+
+#navigation a[href="cottages.html"]:hover {
+background: url(NavBanner.gif) no-repeat -100px -44px;
+}
+
+#navigation a[href="rates.html"] {
+background: url(NavBanner.gif) no-repeat -200px 0;
+}
+
+#navigation a[href="rates.html"]:hover {
+background: url(NavBanner.gif) no-repeat -200px -44px;
+}
+
+
+#onePageNav{
+
+font-size:small;
+text-align:center;
+margin-left;auto;
+width:600px;
+background:#40b910;
+}
+
+#onePageNav a{
+display:block;
+margin:auto;
+text-align:center;
+width:120px;
+color:#000;
+font-weight:bold;
+padding:5px;
+text-decoration:none;
+background:#40b910;
+}
+
+#onePageNav ul{
+margin-left:auto;
+margin-right:auto;
+padding:0;
+list-style:none;
+text-align:center;
+}
+
+#OnePageNav li{
+float:left;
+}
+
+
+/* CSS Document */
+
